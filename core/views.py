@@ -31,7 +31,7 @@ def home(request,field=None):
             print('Post Saved')
 
     posts=Post.objects.all()
-    print(request.session.exists(request.session.session_key))
+    #print(request.session.exists(request.session.session_key))
     if not request.session.exists(request.session.session_key):
         request.session.create()
         print('Created')
