@@ -6,7 +6,7 @@ charset-normalizer==3.1.0
 cycler==0.11.0
 deep-translator==1.11.1
 distro==1.8.0
-Django==4.2
+Django==4.0
 django-ipware==5.0.0
 fonttools==4.28.3
 googletranslate==2.1.2
